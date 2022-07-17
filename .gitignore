@@ -1,0 +1,4 @@
+venv/
+data.db
+application/_pycache_
+tests/_pycache_
