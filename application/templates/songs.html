@@ -1,0 +1,19 @@
+
+{% block body %}
+<br>
+
+<h1>Songs Database List</h1>
+
+<br>
+
+<br><br>
+
+{% for i in songslist %}
+<p>Song ID: {{ i.id}} / Title: {{ i.title }} / Artist: {{ i.artist }} / Feature: {{ i.feature }} / Category: {{ i.category }} / Release Date: {{ i.reldate }} / Length: {{ i.length }}
+
+</p>
+
+<br>
+    
+{% endfor %}
+{% endblock body %}
